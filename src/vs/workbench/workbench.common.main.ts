@@ -187,7 +187,7 @@ registerSingleton(IAllowedMcpServersService, AllowedMcpServersService, Instantia
 //#region --- workbench contributions
 
 // Default Account
-import './services/accounts/browser/defaultAccount.js';
+// import './services/accounts/browser/defaultAccount.js';
 
 // Telemetry
 import './contrib/telemetry/browser/telemetry.contribution.js';
@@ -230,8 +230,8 @@ import './contrib/logs/common/logs.contribution.js';
 import './contrib/quickaccess/browser/quickAccess.contribution.js';
 
 // Explorer
-import './contrib/files/browser/explorerViewlet.js';
-import './contrib/files/browser/fileActions.contribution.js';
+// import './contrib/files/browser/explorerViewlet.js';
+// import './contrib/files/browser/fileActions.contribution.js';
 import './contrib/files/browser/files.contribution.js';
 
 // Bulk Edit
@@ -242,20 +242,20 @@ import './contrib/bulkEdit/browser/preview/bulkEdit.contribution.js';
 import './contrib/inlineCompletions/browser/renameSymbolTrackerService.js';
 
 // Search
-import './contrib/search/browser/search.contribution.js';
-import './contrib/search/browser/searchView.js';
+// import './contrib/search/browser/search.contribution.js';
+// import './contrib/search/browser/searchView.js';
 
 // Search Editor
-import './contrib/searchEditor/browser/searchEditor.contribution.js';
+// import './contrib/searchEditor/browser/searchEditor.contribution.js';
 
 // Sash
 import './contrib/sash/browser/sash.contribution.js';
 
 // Git
-import './contrib/git/browser/git.contributions.js';
+// import './contrib/git/browser/git.contributions.js';
 
 // SCM
-import './contrib/scm/browser/scm.contribution.js';
+// import './contrib/scm/browser/scm.contribution.js';
 
 // Debug
 import './contrib/debug/browser/debug.contribution.js';
