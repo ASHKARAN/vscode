@@ -121,8 +121,8 @@ import './contrib/localization/electron-browser/localization.contribution.js';
 // CodeEditor Contributions
 import './contrib/codeEditor/electron-browser/codeEditor.contribution.js';
 
-// Debug
-// import './contrib/debug/electron-browser/extensionHostDebugService.js';
+// Debug (extension host debug service needed for extension host)
+import './contrib/debug/electron-browser/extensionHostDebugService.js';
 
 // Extensions Management
 import './contrib/extensions/electron-browser/extensions.contribution.js';

@@ -254,15 +254,15 @@ import './contrib/sash/browser/sash.contribution.js';
 // Git (needed for MainThreadGitExtension proxy used by Copilot)
 import './contrib/git/browser/git.contributions.js';
 
-// SCM
-// import './contrib/scm/browser/scm.contribution.js';
+// SCM (service needed by Copilot chat)
+import './contrib/scm/browser/scm.contribution.js';
 
-// Debug
-// import './contrib/debug/browser/debug.contribution.js';
-// import './contrib/debug/browser/debugEditorContribution.js';
-// import './contrib/debug/browser/breakpointEditorContribution.js';
-// import './contrib/debug/browser/callStackEditorContribution.js';
-// import './contrib/debug/browser/repl.js';
+// Debug (service needed by many components - viewlet disabled to hide UI)
+import './contrib/debug/browser/debug.contribution.js';
+import './contrib/debug/browser/debugEditorContribution.js';
+import './contrib/debug/browser/breakpointEditorContribution.js';
+import './contrib/debug/browser/callStackEditorContribution.js';
+import './contrib/debug/browser/repl.js';
 // import './contrib/debug/browser/debugViewlet.js';
 
 // Markers
