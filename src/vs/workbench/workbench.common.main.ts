@@ -106,15 +106,15 @@ import './services/views/browser/viewDescriptorService.js';
 import './services/views/browser/viewsService.js';
 import './services/quickinput/browser/quickInputService.js';
 import './services/userDataSync/browser/userDataSyncWorkbenchService.js';
-// import './services/authentication/browser/authenticationService.js';
-// import './services/authentication/browser/authenticationExtensionsService.js';
-// import './services/authentication/browser/authenticationUsageService.js';
-// import './services/authentication/browser/authenticationAccessService.js';
-// import './services/authentication/browser/authenticationMcpUsageService.js';
-// import './services/authentication/browser/authenticationMcpAccessService.js';
-// import './services/authentication/browser/authenticationMcpService.js';
-// import './services/authentication/browser/dynamicAuthenticationProviderStorageService.js';
-// import './services/authentication/browser/authenticationQueryService.js';
+import './services/authentication/browser/authenticationService.js';
+import './services/authentication/browser/authenticationExtensionsService.js';
+import './services/authentication/browser/authenticationUsageService.js';
+import './services/authentication/browser/authenticationAccessService.js';
+import './services/authentication/browser/authenticationMcpUsageService.js';
+import './services/authentication/browser/authenticationMcpAccessService.js';
+import './services/authentication/browser/authenticationMcpService.js';
+import './services/authentication/browser/dynamicAuthenticationProviderStorageService.js';
+import './services/authentication/browser/authenticationQueryService.js';
 import '../platform/hover/browser/hoverService.js';
 import '../platform/userInteraction/browser/userInteractionServiceImpl.js';
 import './services/assignment/common/assignmentService.js';
@@ -251,8 +251,8 @@ import './contrib/inlineCompletions/browser/renameSymbolTrackerService.js';
 // Sash
 import './contrib/sash/browser/sash.contribution.js';
 
-// Git
-// import './contrib/git/browser/git.contributions.js';
+// Git (needed for MainThreadGitExtension proxy used by Copilot)
+import './contrib/git/browser/git.contributions.js';
 
 // SCM
 // import './contrib/scm/browser/scm.contribution.js';
@@ -380,7 +380,7 @@ import './contrib/languageDetection/browser/languageDetection.contribution.js';
 import './contrib/languageStatus/browser/languageStatus.contribution.js';
 
 // Authentication
-// import './contrib/authentication/browser/authentication.contribution.js';
+import './contrib/authentication/browser/authentication.contribution.js';
 
 // User Data Sync
 import './contrib/userDataSync/browser/userDataSync.contribution.js';
